@@ -1,5 +1,6 @@
 # EyeView1_1
 一款仿开眼的安卓软件
+
 软件功能：
  1.每日精选：视频推荐 视频详情 横竖屏播放 手势设置（音量亮度增减）评论与点赞 收藏 分享
  2.往期分类：视频分类 
@@ -17,6 +18,7 @@
  5. 网络视频播放：JZVideoPlayer
  6. 显示：ListView、BaseAdapter（利用convertView+ViewHolder重写getView()）
  7. 后台：Bmob后端云，存储用户信息、评论信息、分享信息
+ 
 技术难点:
 1.视频获取：
 （1）联网获取json数据：AsyncHttpClient，HttpURLConnection
