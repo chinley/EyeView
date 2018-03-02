@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+		multiDexEnabled true
+        applicationId "com.example.rory_zhong.eyeview"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+	lintOptions {
+       disable 'MissingTranslation'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/android-async-http-1.4.9.jar')
+    compile files('libs/httpclient-4.4.1.2.jar')
+    //bmob-push：Bmob的推送包
+    //bmob-im：Bmob的即时通讯包
+    //bmob-sms ：Bmob单独为短信服务提供的包
+    //如果你想应用能够兼容Android6.0，请添加此依赖(org.apache.http.legacy.jar)
+    compile 'cn.jzvd:jiaozivideoplayer:6.2.3'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //compile 'com.google.code.gson:gson:2.2.4'
+    compile 'cn.bmob.android:bmob-sdk:3.5.5'
+
+  //  compile 'cn.bmob.android:bmob-push:0.8'
+  //  compile 'cn.bmob.android:bmob-im:2.0.5@aar'
+  //  compile 'cn.bmob.android:bmob-sms:1.0.1'
+ //   compile 'cn.bmob.android:http-legacy:1.0'
+    testCompile 'junit:junit:4.12'
+}

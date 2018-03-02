@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rory_zhong.eyeview.MyDownload">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorTitle"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/downloadTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/my_download"
+            android:textColor="@color/colorBottom"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!--滚动-->
+    <ScrollView
+        android:id="@+id/pastScroll"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:background="@color/colorMyBack"
+        android:layout_height="match_parent">
+
+        <!--嵌套一个线性布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--第一个下载-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/downVideo1"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/video2"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="眼球和味蕾，一个都不放过"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="#美食"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="15dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/endText"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="80dp"
+                android:text="-The End-"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <!--滚动中的线性布局尾部-->
+        </LinearLayout>
+
+        <!--frameLayout中的滚动布局尾部-->
+    </ScrollView>
+
+</RelativeLayout>

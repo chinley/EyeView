@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="app_name">眼迹</string>
+    <string name="homePageUrl">http://baobab.kaiyanapp.com/api/v4/tabs/selected</string>
+    <string name="pastUrl">http://baobab.kaiyanapp.com/api/v4/discovery/category</string>
+    <string name="introduction">眼迹 | 看世界</string>
+    <string name="loading">正在加载...</string>
+    <!--login-->
+    <string name="user_name">用户名称：</string>
+    <string name="user_password">用户密码：</string>
+    <string name="message_name">剩余次数：</string>
+    <string name="login_button">登录</string>
+    <string name="cancel_button">退出</string>
+    <string name="message_true">登录成功</string>
+    <string name="message_wrong">密码错误！</string>
+
+    <!--home_page-->
+    <string name="fragment_home">首页</string>
+    <string name="home_title">每日视频</string>
+    <string name="network">网络请求失败</string>
+    <string name="notLogin">用户未登录</string>
+
+    <!--sharedetail-->
+    <string name="share">分享</string>
+    <string name="cancel">取消</string>
+
+    <!--community-->
+    <string name="fragment_community">社区</string>
+    <string name="c_user_com1">我所知道的勇敢，就是可以毫无忌惮地大口吃肉，我所知道的幸福，就是今天饭桌上有肉。</string>
+    <string name="c_user_com2">人生又有多少场华丽在等着，不多的，不多的，即使旅行，也大半平凡岁月罢了。</string>
+    <string name="c_user_com3">眼光是你如何努力都不会改变的东西，眼光是自出生起你所看到的，所听到的，所感觉到的而决定的，那是早就注定的了。</string>
+
+    <!--past-->
+    <string name="fragment_past">分类</string>
+    <string name="category1">萌宠 | 萌到你了吗</string>
+    <string name="category2">运动 | 健康生活</string>
+    <string name="category3">游戏 | 放松一下</string>
+    <string name="category4">旅行 | 屁股离开椅子</string>
+    <string name="pasthead">全部分类</string>
+    <string name="pasthead2">看看什么合你的口味</string>
+
+    <!--my-->
+    <string name="fragment_my">我的</string>
+    <string name="user_signature">好好学习，天天向上！</string>
+    <string name="user_favorite">收藏夹</string>
+    <string name="local_cache">本地缓存</string>
+    <string name="login_out">退出</string>
+    <string name="please_login">请登录</string>
+
+    <!--my_collection-->
+    <string name="my_collection">我的收藏</string>
+
+    <!--my_download-->
+    <string name="my_download">我的下载</string>
+
+    <!--video_detail-->
+    <string name="video_detail">视频详情</string>
+    <string name="video_comment">精彩评论</string>
+    <string name="input_comment">输入评论</string>
+
+
+</resources>

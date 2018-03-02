@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#607D8B</color>
+    <color name="colorAccent">#B0C4DE</color>
+    <color name="colorBottom">#ffffff</color>
+    <color name="colorTest">#f1a50d</color>
+    <color name="colorTitle">#607D8B</color>
+    <color name="colorDivide">#e7e9e9</color>
+
+    <color name="black">#000000</color>
+
+    <!--my-->
+    <color name="colorMyBack">#ffffff</color>
+
+    <!--video_detail-->
+    <color name="videoCommentBac">#f2f4f5</color>
+
+</resources>

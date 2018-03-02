@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="app_name">Eye View</string>
+    <string name="homePageUrl">http://baobab.kaiyanapp.com/api/v4/tabs/selected</string>
+    <string name="pastUrl">http://baobab.kaiyanapp.com/api/v4/discovery/category</string>
+    <string name="introduction">Eye View | Look at the world</string>
+    <string name="loading">loading...</string>
+    <!--login-->
+    <string name="user_name">username:</string>
+    <string name="user_password">password:</string>
+    <string name="message_name">Remaining times:</string>
+    <string name="login_button">Login</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="message_true">Login successfully.</string>
+    <string name="message_wrong">Wrong password!</string>
+
+    <!--home_page-->
+    <string name="fragment_home">HomePage</string>
+    <string name="home_title">Daily video</string>
+    <string name="network">Network request failed</string>
+    <string name="notLogin">user not logged in</string>
+
+    <!--sharedetail-->
+    <string name="share">share</string>
+    <string name="cancel">cancel</string>
+
+    <!--community-->
+    <string name="fragment_community">Community</string>
+    <string name="c_user_com1">我所知道的勇敢，就是可以毫无忌惮地大口吃肉，我所知道的幸福，就是今天饭桌上有肉。</string>
+    <string name="c_user_com2">人生又有多少场华丽在等着，不多的，不多的，即使旅行，也大半平凡岁月罢了。</string>
+    <string name="c_user_com3">眼光是你如何努力都不会改变的东西，眼光是自出生起你所看到的，所听到的，所感觉到的而决定的，那是早就注定的了。</string>
+
+    <!--past-->
+    <string name="fragment_past">Categories</string>
+    <string name="category1">Life</string>
+    <string name="category2">Scenery</string>
+    <string name="category3">Food</string>
+    <string name="category4">Science</string>
+    <string name="pasthead">All categories</string>
+    <string name="pasthead2">What do you like</string>
+
+    <!--my-->
+    <string name="fragment_my">My</string>
+    <string name="user_signature">Good good study,day day up!</string>
+    <string name="user_favorite">Collections</string>
+    <string name="local_cache">Local Cache</string>
+    <string name="login_out">Exit</string>
+    <string name="please_login">Please login</string>
+
+    <!--my_collection-->
+    <string name="my_collection">My collections</string>
+
+    <!--my_download-->
+    <string name="my_download">My downloads</string>
+
+    <!--past2-->
+
+    <!--video_detail-->
+    <string name="video_detail">Video detail</string>
+    <string name="video_comment">Great comments</string>
+    <string name="input_comment">Input comment</string>
+
+</resources>
